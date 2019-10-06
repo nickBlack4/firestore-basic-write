@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCM</title>
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-firestore.js"></script>
+
+    <button id="sign-in-button">
+        Sign in
+    </button>
+
+    <h1>Stupid Form</h1>
+    First Name: <input type="textfield" id="firstName" />
+    Last Name: <input type="textfield" id="lastName" />
+    <button id="saveButton">Save</button>
+
+    <script src="scripts/sign-in.js"></script>
+    <script src="scripts/firestore_form.js"></script>
+
+</body>
+</html>
