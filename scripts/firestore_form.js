@@ -1,13 +1,14 @@
 // Initialize Firebase
+// YOU NEED TO PUT YOUR INFO HERE
 const firebaseConfig = {
-    apiKey: "AIzaSyCEehkaC-8U5007XmitXuHdkYMiD1skqqc",
-    authDomain: "scm2-94a82.firebaseapp.com",
-    databaseURL: "https://scm2-94a82.firebaseio.com",
-    projectId: "scm2-94a82",
-    storageBucket: "scm2-94a82.appspot.com",
-    messagingSenderId: "321283054862",
-    appId: "1:321283054862:web:b3f44ff4795f445fdb4b5f",
-    measurementId: "G-N5GYQV9V2B"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 firebase.initializeApp(firebaseConfig);
